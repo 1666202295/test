@@ -1,7 +1,7 @@
 import random
 
 # 通过import引用工具包
-# random 为随机数 生成 1到50之间的随机数
+# random 为随机 生成 1到50之间的随机数
 randNum = random.randrange(1, 51)
 
 # 随机函数生成要排序的列表
@@ -54,3 +54,20 @@ s_tup = sorted(tup)
 print(s_tup)
 print(sorted(tup))
 
+# max函数获取最大值
+print(max(tup))
+
+# 生成一个列表 指numList 中的值是i,而i是循环range(10)生成的
+numList = [i for i in range(10)]
+print(numList)
+
+# 生成一个二维数组 循环numList 将其中的每个参数i拿出来,生成每个参数i的2次方,3次方,4次方,
+# 将结果保存到一个子数组,将子数组保存到父级数组
+# 父级数组长度与numList长度一致,父级数组的元素都是子数组,每个子数组都由3个元素组成
+# pow函数表示次方操作
+listOfValue = [[pow(i, 2), pow(i, 3), pow(i, 4)] for i in numList]
+print(listOfValue)
+
+# 通过*方式生成元素相同的列表
+multiDList = [[0] * 10 for i in range(10)]
+print(multiDList)
