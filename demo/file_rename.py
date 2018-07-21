@@ -1,5 +1,6 @@
 import os
 
+# 文件的操作是用os
 rootdir = 'C:\\Users\\user\Desktop\\打篮球'
 # 列出文件夹下所有的目录与文件
 list = os.listdir(rootdir)
