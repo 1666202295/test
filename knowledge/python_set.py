@@ -1,10 +1,10 @@
-# 集合 去重
-
+# 集合
 items = {"arrow", "spear", "arrow", "arrow"}
 
 # 集合会自动去重
 print(items)
 
+# 集合中是否包含某值
 if "rock" in items:
     print("rock exist")
 else:
