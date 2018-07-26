@@ -10,9 +10,9 @@ def is_prime(num):
     return True
 
 
-def get_primes(maxNum):
+def get_primes(max_num):
     primes = []
-    for num1 in range(2, maxNum):
+    for num1 in range(2, max_num):
         if is_prime(num1):
             primes.append(num1)
     return primes
