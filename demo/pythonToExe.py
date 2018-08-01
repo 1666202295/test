@@ -17,6 +17,7 @@
 # -w可以命令运行exe文件不会出现黑窗口如: pyinstaller -F -w D:\project\test.py
 # -i命令可以更换程序图标如: pyinstaller -F -w -i D:\project\test.ico D:\project\test.py
 
+
 strEnter = "运行成功"
 fileName = "pythonToExeDemo.txt"
 path = "F:\\" + fileName
