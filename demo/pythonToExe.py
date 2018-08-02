@@ -34,5 +34,5 @@ def with_file_a(write_params, file_path):
 
 with_file_a(strEnter, path)
 # exec(open(path, encoding='utf-8').read()) 函数表示执行path指向的文件
-exec(open("F:\\test\\demo\\isPrime.py", encoding='utf-8').read())
+# exec(open("F:\\test\\demo\\isPrime.py", encoding='utf-8').read())
 
