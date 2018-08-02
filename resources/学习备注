@@ -1,0 +1,2 @@
+PyCharm 在导入PyPDF2模块时报错:AttributeError: module 'pip' has no attribute 'main'
+    解决方法:https://www.cnblogs.com/Fordestiny/p/8901100.html
