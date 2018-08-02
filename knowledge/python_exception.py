@@ -21,16 +21,26 @@ xxxxxx
 
 """
 
+# 可以通过logging.CRITICAL 关闭所有日志的输出
+# logging.disable(logging.CRITICAL)
+
+import getLogger
+
+logger = getLogger.get_log()
+
 
 def box_print(symbol, width, height):
     # 我们发现,width 和 height 必须为大于2的值, symbol 必须为一个字符,才能打印出一个完整的箱子
 
     # 增加判定,如果width 和 height 不大于2,则抛出异常,symbol 长度不等于 1 则抛出异常
     if len(symbol) != 1:
+        logger.debug("symbol 的长度不为1")
         raise Exception("symbol 的长度必须为1")
     if width <= 2:
+        logger.debug("width 不大于2")
         raise Exception("width 必须大于2")
     if height <= 2:
+        logger.debug("height 不大于2")
         raise Exception("height 必须大于2")
 
     # 第一行打印 width 个 标识符
