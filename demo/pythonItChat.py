@@ -9,6 +9,7 @@
 # @desc:itchat 微信模块初探 文档参考 http://itchat.readthedocs.io/zh/latest/
 
 import itchat
+import withFile
 
 # 登录
 itchat.auto_login()
@@ -21,6 +22,7 @@ fileUser = "filehelper"
 itchat.send("Hello", toUserName=fileUser)
 
 
+# 好友信息路径
 fileName = "YourWeChatData.txt"
 path = "F:\\" + fileName
 strEnter = """
@@ -30,21 +32,13 @@ strEnter = """
 # 打印好友列表
 friends = itchat.get_friends(update=True)[0:]
 for friend in friends:
+    # 拼接文本信息
     strEnter = strEnter + str(friend)
 
+# 写入好友信息
+withFile.with_file_a(strEnter, path)
 
-# 通过with 打开文件
-# mode="a" 表示追加写操作
-def with_file_a(write_params, file_path):
-    # 以urf-8格式打开文件,不然写入中文时会出现乱码情况
-    with open(file_path, mode="a", encoding="utf-8") as heine:
-        # write 为写操作
-        heine.write("\n" + write_params)
-
-
-with_file_a(strEnter, path)
-
-
+# 消息记录文本
 messagePath = "F:\\message.txt"
 
 
@@ -56,7 +50,7 @@ def text_reply(msg):
     nick_name = msg.User.NickName
     text = msg.Text
     message = str(nick_name) + ":" + str(text)
-    with_file_a(message, messagePath)
+    withFile.with_file_a(message, messagePath)
     # 回复信息
     return "我收到消息了"
 
