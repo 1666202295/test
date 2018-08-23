@@ -6,8 +6,9 @@
 # @software: garner
 # @file: pythonItChat.py
 # @time: 2018/8/3 14:58
-# @desc:监控鼠标和键盘的输入
+# @desc:监控鼠标和键盘的输入 鼠标监听事件和键盘监听事件不能在一个线程中,会阻塞线程,只有一个会生效
 from pynput import mouse
+
 
 # 鼠标按键
 Button = mouse.Button
@@ -37,16 +38,6 @@ Controller.click = (Button.left, 2)
 
 # 向下滚动两步
 Controller.scroll = (0, 5)
-
-
-# 键盘处理逻辑
-# def press(key):
-#     print(key)
-#
-#
-# # 键盘监听事件 具体逻辑交给press处理
-# with Listener(on_press=press) as listener:
-#     listener.join()
 
 
 # 鼠标移动事件
@@ -86,3 +77,6 @@ with mouse.Listener(
         on_click=on_click,
         on_scroll=on_scroll) as listener:
     listener.join()
+
+
+
