@@ -10,9 +10,13 @@
 
 # 导入bottle包和beaker包的指定模块
 # bottle文档 http://www.bottlepy.org/docs/dev/tutorial.html
-from bottle import default_app, get, run
+from bottle import default_app, get, run, request
 from beaker.middleware import SessionMiddleware
+from libraryRoot import getLogger
+from libraryRoot.service import userService
 
+
+logger = getLogger.get_log()
 # 设置session参数
 '''
 创建一个session配置的字典，用来存储session的存储类型为文件类型，session过期时间为3600秒，
@@ -26,9 +30,17 @@ session_opts = {
  }
 
 
-@get('/index/')
+@get('/login')
 def callback():
-    return 'Hello World!'
+    logger.debug("访问 login 接口")
+    params = request.params
+    if params:
+        user_phone = params["user_phone"]
+        user_password = params["user_password"]
+        return userService.user_login(user_phone, user_password)
+    else:
+        logger.error("访问 login 接口")
+        return "params is null"
 
 
 # 函数主入口

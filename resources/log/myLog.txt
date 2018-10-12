@@ -1,6 +1,84 @@
-2018-08-02 13:40:51,383 - INFO - 输出中文试一试
-2018-08-02 13:40:51,384 - DEBUG - first debug message
-2018-08-02 13:40:51,384 - DEBUG - width 不大于2
-2018-08-02 13:40:51,384 - DEBUG - symbol 的长度不为1
-2018-08-02 13:44:46,029 - DEBUG - width 不大于2
-2018-08-02 13:44:46,030 - DEBUG - symbol 的长度不为1
+2018-10-12 19:34:08,163 - DEBUG - 访问 login 接口
+2018-10-12 19:34:08,163 - DEBUG - 访问 login 接口
+2018-10-12 19:34:08,163 - DEBUG - 访问 login 接口
+2018-10-12 19:34:08,164 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:34:08,164 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:34:08,164 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:34:08,167 - INFO - select * from user_info where phone = '11111111111'[{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:34:08,167 - INFO - select * from user_info where phone = '11111111111'[{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:34:08,167 - INFO - select * from user_info where phone = '11111111111'[{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:34:08,168 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:34:08,168 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:34:08,168 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:44,366 - DEBUG - 访问 login 接口
+2018-10-12 19:36:44,366 - DEBUG - 访问 login 接口
+2018-10-12 19:36:44,366 - DEBUG - 访问 login 接口
+2018-10-12 19:36:44,367 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:36:44,367 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:36:44,367 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:36:44,370 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:44,370 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:44,370 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:44,370 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:44,370 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:44,370 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:54,292 - DEBUG - 访问 login 接口
+2018-10-12 19:36:54,292 - DEBUG - 访问 login 接口
+2018-10-12 19:36:54,292 - DEBUG - 访问 login 接口
+2018-10-12 19:36:54,295 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:36:54,295 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:36:54,295 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:36:54,298 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:54,298 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:54,298 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:54,299 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:54,299 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:54,299 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:57,336 - DEBUG - 访问 login 接口
+2018-10-12 19:36:57,336 - DEBUG - 访问 login 接口
+2018-10-12 19:36:57,336 - DEBUG - 访问 login 接口
+2018-10-12 19:36:57,337 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:36:57,337 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:36:57,337 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:36:57,340 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:57,340 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:57,340 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:57,340 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:57,340 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:36:57,340 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:37:07,327 - DEBUG - 访问 login 接口
+2018-10-12 19:37:07,327 - DEBUG - 访问 login 接口
+2018-10-12 19:37:07,327 - DEBUG - 访问 login 接口
+2018-10-12 19:37:07,336 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:37:07,336 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:37:07,336 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:37:07,351 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:37:07,351 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:37:07,351 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:37:07,354 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:37:07,354 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:37:07,354 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}, {'id': 2, 'name': 'user', 'phone': '11111111111', 'password': 'admin', 'sex': 0, 'create_time': 20181012192600}]
+2018-10-12 19:37:55,531 - DEBUG - 访问 login 接口
+2018-10-12 19:37:55,531 - DEBUG - 访问 login 接口
+2018-10-12 19:37:55,531 - DEBUG - 访问 login 接口
+2018-10-12 19:37:55,535 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:37:55,535 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:37:55,535 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:37:55,539 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}]
+2018-10-12 19:37:55,539 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}]
+2018-10-12 19:37:55,539 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}]
+2018-10-12 19:37:55,539 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}]
+2018-10-12 19:37:55,539 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}]
+2018-10-12 19:37:55,539 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}]
+2018-10-12 19:38:23,077 - DEBUG - 访问 login 接口
+2018-10-12 19:38:23,077 - DEBUG - 访问 login 接口
+2018-10-12 19:38:23,077 - DEBUG - 访问 login 接口
+2018-10-12 19:38:23,079 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:38:23,079 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:38:23,079 - INFO - select * from user_info where phone = '11111111111'
+2018-10-12 19:38:23,081 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}]
+2018-10-12 19:38:23,081 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}]
+2018-10-12 19:38:23,081 - INFO - select * from user_info where phone = '11111111111',result = [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}]
+2018-10-12 19:38:23,082 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}]
+2018-10-12 19:38:23,082 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}]
+2018-10-12 19:38:23,082 - INFO - [{'id': 1, 'name': 'admin', 'phone': '11111111111', 'password': 'admin', 'sex': 1, 'create_time': 20181012190800}]
