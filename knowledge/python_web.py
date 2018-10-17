@@ -10,7 +10,7 @@
 
 # 导入bottle包和beaker包的指定模块
 # bottle文档 http://www.bottlepy.org/docs/dev/tutorial.html
-from bottle import default_app, get, run, request
+from bottle import default_app, get, run, request, post, put
 from beaker.middleware import SessionMiddleware
 from libraryRoot import getLogger
 from libraryRoot.service import userService
@@ -41,6 +41,14 @@ def callback():
     else:
         logger.error("访问 login 接口")
         return "params is null"
+
+
+@post("/getUser")
+def get_user():
+    logger.debug("访问 get_user 接口")
+    params = request.params
+    if params:
+        pass
 
 
 # 函数主入口

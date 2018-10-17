@@ -14,11 +14,11 @@ import libraryRoot.dao.mysql as db
 # 主键查询
 def get_user(id):
     uid = int(id)
-    sql = "select * from user_info WHERE id = " + uid
+    sql = "select * from usr_info WHERE id = " + uid
     return db.execute_sql(sql)
 
 
 # 手机号查询
 def get_user_phone(phone):
-    sql = "select * from user_info where phone = '" + phone + "'"
+    sql = "select * from usr_info where phone = '" + phone + "'"
     return db.execute_sql(sql)

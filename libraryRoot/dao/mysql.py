@@ -16,7 +16,7 @@ from DBUtils.PooledDB import PooledDB
 from libraryRoot import getLogger
 
 # 连接数据库
-pool = PooledDB(pymysql, 5, host='localhost', user='admin', passwd='admin', db='python', port=3306)
+pool = PooledDB(pymysql, 5, host='172.16.10.22', user='wzd-prod', passwd='(6Fl3WI1162JwUx', db='wzd', port=3306)
 
 # 获取连接对象
 conn = pool.connection()
