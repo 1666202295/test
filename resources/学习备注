@@ -1,2 +1,11 @@
 PyCharm 在导入PyPDF2模块时报错:AttributeError: module 'pip' has no attribute 'main'
     解决方法:https://www.cnblogs.com/Fordestiny/p/8901100.html
+
+Python 脚本转换为exe文件
+    黑窗口运行 pip install pyinstaller 安装PyInstaller 如果已经安装则不需要重复安装
+    使用 pyinstaller 打包 如: pyinstaller -F F:\test\demo\pythonToExe.py
+    运行后在脚本文件上级目录生成 dist 和 build 两个文件夹 如与demo同级生成dist和build文件夹
+    其中，build 目录是 pyinstaller 存储临时文件的目录，可以安全删除
+    最终的打包程序在 dist 内部的 dpython 目录中
+    -w可以命令运行exe文件不会出现黑窗口如: pyinstaller -F -w D:\project\test.py
+    -i命令可以更换程序图标如: pyinstaller -F -w -i D:\project\test.ico D:\project\test.py
